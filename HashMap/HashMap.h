@@ -63,7 +63,7 @@ unsigned int HashMap<K, T>::hashFunc(K clave) {
 }
 
 template<class K, class T>
-HashMap::HashMap(unsigned int k, unsigned int (*fp)(K)) {
+HashMap<K, T>::HashMap(unsigned int k, unsigned int (*fp)(K)) {
 
 }
 
